@@ -1,0 +1,25 @@
+@media (max-width: 1050px) {
+  header div ul li img {
+    display: none;
+  }
+  header div ul li a {
+    font-size: 0.8em;
+  }
+  header div.menu-right ul li a {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 865px) {
+  header div.right div.search {
+    display: none;
+  }
+  header div.right img.search {
+    display: block;
+    margin: 0 10px;
+  }
+  section.card-principal {
+    display: grid;
+    grid-template-areas: "g1 g1 g1 g1" "ge ge gs gs";
+    grid-gap: 10px;
+  }
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1400px;
+  margin: 10px auto;
+}
+header input#menu-toggle {
+  display: none;
+}
+header img {
+  margin: 0 10px 0 0;
+}
+header div.menu {
+  display: flex;
+  width: 100%;
+}
+header div.menu div {
+  display: flex;
+  width: 100%;
+}
+header div.menu div ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: space-around;
+}
+header div.menu div ul li {
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+}
+header div.menu div ul li a {
+  text-decoration: none;
+}
+header div.menu div ul li img {
+  width: 10px;
+  margin: 5px;
+}
+header div.menu div.menu-left ul li {
+  align-items: flex-end;
+}
+header div.menu div.menu-left ul li a {
+  font-weight: bolder;
+}
+header div.menu div.menu-left ul li.g1 a {
+  color: #c82d2d;
+}
+header div.menu div.menu-left ul li.ge a {
+  color: #33cc55;
+}
+
+header div.menu div.menu-right {
+  display: flex;
+  justify-content: flex-end;
+}
+header div.menu div.menu-right ul li {
+  align-items: center;
+}
+header div.menu div.menu-right ul li a {
+  font-size: 0.6em;
+}
+header div.right {
+  display: flex;
+}
+header div.right img.search {
+  display: none;
+}
+header div.right div.search {
+  display: flex;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 5px;
+  width: 170px;
+}
+header div.right div.search form {
+  padding: 0;
+  display: flex;
+}
+header div.right div.search form input {
+  border: 0;
+  width: 100%;
+}
+header label[for="menu-toggle"] {
+  display: none;
+}
+
+body hr {
+  border: 1px solid #c4c4c4;
+}
+body picture {
+  background-color: #eeeeee;
+}
+body picture img {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+section.card-principal > div.column-g1 {
+  grid-area: g1;
+}
+section.card-principal > div.column-ge {
+  grid-area: ge;
+}
+section.card-principal > div.column-gs {
+  grid-area: gs;
+}
+section.card-principal {
+  display: grid;
+  grid-template-areas: "g1 g1 g1 g1 ge ge gs gs";
+  grid-gap: 5px;
+}

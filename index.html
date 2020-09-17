@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Responsivo</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+  </head>
+  <body>
+    <header class="container">
+      <input id="menu-toggle" type="checkbox" />
+      <img src="img/logo.svg" />
+      <label for="menu-toggle">
+        <div class="menu-hamburger">
+          <span class="hamburger"></span>
+        </div>
+      </label>
+      <div class="menu">
+        <div class="menu-left">
+          <ul>
+            <li class="g1">
+              <a href="#">g1</a>
+              <img src="img/g1.svg" />
+            </li>
+            <li class="ge">
+              <a href="#">ge</a>
+              <img src="img/ge.svg" />
+            </li>
+            <li class="gsho">
+              <a href="#">gshow</a>
+              <img src="img/seta.svg" />
+            </li>
+            <li class="tech">
+              <a href="#">tech</a>
+              <img src="img/seta.svg" />
+            </li>
+            <li class="videos">
+              <a href="#">vídeos</a>
+              <img src="img/seta.svg" />
+            </li>
+          </ul>
+        </div>
+        <div class="menu-right">
+          <ul>
+            <li>
+              <a href="#">ASSINE JÁ</a>
+            </li>
+            <li>
+              <a href="#">E-MAIL</a>
+              <img src="img/seta.svg" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <img src="img/search.svg" class="search" />
+        <div class="search">
+          <img src="img/search.svg" />
+          <form method="POST" action="#">
+            <input
+              type="text"
+              name="buscar"
+              placeholder="encontre na globo.com"
+            />
+          </form>
+        </div>
+        <img src="img/user.svg" />
+      </div>
+    </header>
+    <hr />
+    <picture class="container">
+      <img src="img/prop1.png" />
+    </picture>
+    <section class="container card-principal">
+      <div class="column-g1">
+        <h1>
+          Ex-prefeito Eduardo Paes é alvo de busca e vira réu por corrupção
+        </h1>
+        <li>
+          Paes se diz indignado: ‘Tentativa de interferir no processo eleitoral'
+        </li>
+      </div>
+      <div class="column-ge">
+        <h3>Mano já tem oferta do Bahia e pede tempo maior para definição</h3>
+        <li>Dome não consulta atletas do Fla nem médicos sobre rodízio</li>
+      </div>
+      <div class="column-gs">
+        <h3>
+          'Gravar a série mudou o clima aqui em casa', dizem Lázaro e Taís
+        </h3>
+        <li>Série 'Amor e Sorte' estreia hoje com famílias de atores</li>
+      </div>
+    </section>
+  </body>
+</html>
